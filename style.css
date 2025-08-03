@@ -39,3 +39,19 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+#header #banner{
+    width: 100%;
+    background-image: url('assets/Hero-bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#header #banner #banner-content{
+    width: 50%;
+    margin: 0 auto;
+    padding: 5rem 0;
+    text-align: center;
+}
+#header #banner #banner-heading{
+    font-size: 4rem;
+}
