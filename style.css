@@ -1,57 +1,91 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+body {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-.dark-btn{
+.dark-btn {
     padding: 10px 20px;
     font-size: 1rem;
-    border: 1px solid rgba(0,0,0,.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
     border-radius: 5px;
-    background-color: rgba(0,0,0,.9);
+    background-color: rgba(0, 0, 0, 0.9);
     color: #ffffff;
     cursor: pointer;
 }
-.white-btn{
+.white-btn {
     padding: 10px 20px;
     font-size: 1rem;
-    border: 1px solid rgba(0,0,0,.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
     border-radius: 5px;
-    background-color: rgba(255,255,255,.9);
+    background-color: rgba(255, 255, 255, 0.9);
     color: rgba(0, 0, 0, 0.9);
     cursor: pointer;
+    text-decoration: none;
 }
-.common-paragraph{
-    color: rgba(0,0,0,.6);
+.common-paragraph {
+    color: rgba(0, 0, 0, 0.6);
     text-align: center;
-    line-height: 1.2rem;
+    line-height: 1.4rem;
     margin: 1rem 0;
 }
+.common-h2 {
+    text-align: center;
+}
+.common-h3 {
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.8);
+}
+.learn-more {
+    background-color: transparent;
+}
+#main section {
+    width: 70%;
+    margin: 5rem auto;
+    padding: 3rem;
+}
+.align-left {
+    text-align: left;
+}
 
-
-#header #navbar{
+#header #navbar {
     width: 80%;
     margin: 2rem auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-#header #banner{
+#header #banner {
     width: 100%;
-    background-image: url('assets/Hero-bg.png');
+    background-image: url("assets/Hero-bg.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-#header #banner #banner-content{
+#header #banner #banner-content {
     width: 50%;
     margin: 0 auto;
     padding: 5rem 0;
     text-align: center;
 }
-#header #banner #banner-heading{
+#header #banner #banner-heading {
     font-size: 4rem;
+}
+#main #why-web-dev {
+    background-color: rgba(13, 19, 33, 0.04);
+}
+#main #webdevcard-container .webdev-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+    padding: 1rem;
+    border-radius: 6px;
+    margin: 2rem 0;
+}
+#main #webdevcard-container .card-leftcontent {
+    width: 40%;
 }
