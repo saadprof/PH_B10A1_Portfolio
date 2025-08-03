@@ -81,10 +81,10 @@ body {
     justify-content: space-around;
     align-items: center;
 
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 10px;
     padding: 1rem;
     border-radius: 6px;
-    margin: 2rem 0;
+    margin: 3rem 0;
 }
 #main #webdevcard-container .card-leftcontent {
     width: 40%;
