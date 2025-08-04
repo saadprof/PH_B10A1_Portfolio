@@ -134,3 +134,17 @@ body {
 #main #ctarget-container .js{
     background-color: rgba(243, 243, 8, 0.2);
 }
+
+#main #ntarget-container .ntarget{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+
+}
+#main #ntarget-container .ntarget p{
+    text-align: left;
+}
+#main #ntarget-container a{
+    color: rgba(0, 0, 0, 0.7);
+}
