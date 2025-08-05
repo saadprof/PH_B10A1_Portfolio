@@ -81,6 +81,8 @@ body {
     font-size: 4rem;
 }
 
+
+
 #main #why-web-dev {
     background-color: rgba(0, 0, 0, 0.02);
 }
@@ -153,4 +155,35 @@ body {
 }
 #main #ntarget-container a{
     color: rgba(0, 0, 0, 0.7);
+}
+
+
+#main #support{
+    background-image: linear-gradient(rgba(0,0,0,0.3)), url('assets/handshake.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30vh;
+    padding: 0;
+    border-radius: 8px;
+}
+#main #support > div{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 3rem;
+}
+#main #support h2{
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+#main #support p{
+    color: rgba(255, 255, 255, 0.7);
+    margin: 1rem 0;
+}
+#main #support #input-feedback{
+    padding: 10px;
+    width: 60%;
+    border: 1px solid transparent;
+    border-radius: 6px;
 }
